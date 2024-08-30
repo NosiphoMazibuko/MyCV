@@ -1,11 +1,5 @@
-/* Basic reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
+/* Base Styles */
+body{
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
@@ -13,71 +7,126 @@ body {
 }
 
 .container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    background: #fff;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-header {
+/* Header Block */
+.header {
     text-align: center;
     margin-bottom: 30px;
 }
 
-.profile-pic {
+.header_profile-pic {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-bottom: 15px;
 }
 
-header h1 {
+.header_titl {
     font-size: 2.5em;
-    color: #333;
+    margin: 10px 0;
 }
 
-header p {
+header_subtitle {
     font-size: 1.2em;
     color: #666;
 }
 
-section {
+/* Bio Block */
+.bio {
     margin-bottom: 30px;
 }
 
-section h2 {
+.bio__title {
     font-size: 2em;
-    color: #333;
     margin-bottom: 10px;
 }
 
-section p, section ul {
-    font-size: 1.1em;
-    color: #555;
+.bio__description {
+    font-size: 1em;
+    color: #333;
 }
 
-section ul {
-    list-style-type: square;
-    margin-left: 20px;
+/* Contact Block */
+.contact {
+    margin-bottom: 30px;
 }
 
-a {
-    color: #3498db;
-    text-decoration: none;
+.contact__title {
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 
-a:hover {
-    text-decoration: underline;
+.contact__info {
+    font-size: 1em;
+    color: #333;
 }
 
-footer {
+/* Skills Block */
+.skills {
+    margin-bottom: 30px;
+}
+
+.skills__title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.skills__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills__item {
+    margin: 5px 0;
+}
+
+/* Education Block */
+.education {
+    margin-bottom: 30px;
+}
+
+.education__title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.education__description {
+    font-size: 1em;
+    color: #333;
+}
+
+/* Experience Block */
+.experience {
+    margin-bottom: 30px;
+}
+
+.experience__title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.experience__job-title {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.experience__details {
+    margin-bottom: 15px;
+}
+
+.experience__item {
+    margin: 5px 0;
+}
+
+/* Footer Block */
+.footer {
     text-align: center;
-    padding: 10px;
-    background: #333;
-    color: #fff;
-    border-radius: 0 0 10px 10px;
+    padding: 10px 0;
+    font-size: 0.9em;
+    color: #666;
 }
-
